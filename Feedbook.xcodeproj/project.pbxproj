@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B309B84E134F506000F11F1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B309B84D134F506000F11F1F /* UIKit.framework */; };
+		B309B850134F506000F11F1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B309B84F134F506000F11F1F /* Foundation.framework */; };
+		B309B852134F506000F11F1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B309B851134F506000F11F1F /* CoreGraphics.framework */; };
+		B309B858134F506000F11F1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B309B856134F506000F11F1F /* InfoPlist.strings */; };
+		B309B85B134F506000F11F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B309B85A134F506000F11F1F /* main.m */; };
+		B309B85E134F506000F11F1F /* FeedbookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B309B85D134F506000F11F1F /* FeedbookAppDelegate.m */; };
+		B309B861134F506000F11F1F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B309B85F134F506000F11F1F /* MainWindow.xib */; };
+		B309B868134F506100F11F1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B309B84D134F506000F11F1F /* UIKit.framework */; };
+		B309B869134F506100F11F1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B309B84F134F506000F11F1F /* Foundation.framework */; };
+		B309B86A134F506100F11F1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B309B851134F506000F11F1F /* CoreGraphics.framework */; };
+		B309B872134F506100F11F1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B309B870134F506100F11F1F /* InfoPlist.strings */; };
+		B309B875134F506100F11F1F /* FeedbookTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B309B874134F506100F11F1F /* FeedbookTests.h */; };
+		B309B877134F506100F11F1F /* FeedbookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B309B876134F506100F11F1F /* FeedbookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B309B86B134F506100F11F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B309B840134F506000F11F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B309B848134F506000F11F1F;
+			remoteInfo = Feedbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B309B849134F506000F11F1F /* Feedbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feedbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B309B84D134F506000F11F1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B309B84F134F506000F11F1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B309B851134F506000F11F1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B309B855134F506000F11F1F /* Feedbook-Info.plist */ = {isa = PBXFileReference; path = "Feedbook-Info.plist"; sourceTree = "<group>"; };
+		B309B857134F506000F11F1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B309B859134F506000F11F1F /* Feedbook-Prefix.pch */ = {isa = PBXFileReference; path = "Feedbook-Prefix.pch"; sourceTree = "<group>"; };
+		B309B85A134F506000F11F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B309B85C134F506000F11F1F /* FeedbookAppDelegate.h */ = {isa = PBXFileReference; path = FeedbookAppDelegate.h; sourceTree = "<group>"; };
+		B309B85D134F506000F11F1F /* FeedbookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedbookAppDelegate.m; sourceTree = "<group>"; };
+		B309B860134F506000F11F1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B309B867134F506100F11F1F /* FeedbookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedbookTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B309B86F134F506100F11F1F /* FeedbookTests-Info.plist */ = {isa = PBXFileReference; path = "FeedbookTests-Info.plist"; sourceTree = "<group>"; };
+		B309B871134F506100F11F1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B309B873134F506100F11F1F /* FeedbookTests-Prefix.pch */ = {isa = PBXFileReference; path = "FeedbookTests-Prefix.pch"; sourceTree = "<group>"; };
+		B309B874134F506100F11F1F /* FeedbookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedbookTests.h; sourceTree = "<group>"; };
+		B309B876134F506100F11F1F /* FeedbookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedbookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B309B846134F506000F11F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B309B84E134F506000F11F1F /* UIKit.framework in Frameworks */,
+				B309B850134F506000F11F1F /* Foundation.framework in Frameworks */,
+				B309B852134F506000F11F1F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B309B863134F506000F11F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B309B868134F506100F11F1F /* UIKit.framework in Frameworks */,
+				B309B869134F506100F11F1F /* Foundation.framework in Frameworks */,
+				B309B86A134F506100F11F1F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B309B83E134F506000F11F1F = {
+			isa = PBXGroup;
+			children = (
+				B309B853134F506000F11F1F /* Feedbook */,
+				B309B86D134F506100F11F1F /* FeedbookTests */,
+				B309B84C134F506000F11F1F /* Frameworks */,
+				B309B84A134F506000F11F1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B309B84A134F506000F11F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B309B849134F506000F11F1F /* Feedbook.app */,
+				B309B867134F506100F11F1F /* FeedbookTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B309B84C134F506000F11F1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B309B84D134F506000F11F1F /* UIKit.framework */,
+				B309B84F134F506000F11F1F /* Foundation.framework */,
+				B309B851134F506000F11F1F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B309B853134F506000F11F1F /* Feedbook */ = {
+			isa = PBXGroup;
+			children = (
+				B309B85C134F506000F11F1F /* FeedbookAppDelegate.h */,
+				B309B85D134F506000F11F1F /* FeedbookAppDelegate.m */,
+				B309B85F134F506000F11F1F /* MainWindow.xib */,
+				B309B854134F506000F11F1F /* Supporting Files */,
+			);
+			path = Feedbook;
+			sourceTree = "<group>";
+		};
+		B309B854134F506000F11F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B309B855134F506000F11F1F /* Feedbook-Info.plist */,
+				B309B856134F506000F11F1F /* InfoPlist.strings */,
+				B309B859134F506000F11F1F /* Feedbook-Prefix.pch */,
+				B309B85A134F506000F11F1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B309B86D134F506100F11F1F /* FeedbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				B309B874134F506100F11F1F /* FeedbookTests.h */,
+				B309B876134F506100F11F1F /* FeedbookTests.m */,
+				B309B86E134F506100F11F1F /* Supporting Files */,
+			);
+			path = FeedbookTests;
+			sourceTree = "<group>";
+		};
+		B309B86E134F506100F11F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B309B86F134F506100F11F1F /* FeedbookTests-Info.plist */,
+				B309B870134F506100F11F1F /* InfoPlist.strings */,
+				B309B873134F506100F11F1F /* FeedbookTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B309B848134F506000F11F1F /* Feedbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B309B87A134F506100F11F1F /* Build configuration list for PBXNativeTarget "Feedbook" */;
+			buildPhases = (
+				B309B845134F506000F11F1F /* Sources */,
+				B309B846134F506000F11F1F /* Frameworks */,
+				B309B847134F506000F11F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Feedbook;
+			productName = Feedbook;
+			productReference = B309B849134F506000F11F1F /* Feedbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B309B866134F506000F11F1F /* FeedbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B309B87D134F506100F11F1F /* Build configuration list for PBXNativeTarget "FeedbookTests" */;
+			buildPhases = (
+				B309B862134F506000F11F1F /* Sources */,
+				B309B863134F506000F11F1F /* Frameworks */,
+				B309B864134F506000F11F1F /* Resources */,
+				B309B865134F506000F11F1F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B309B86C134F506100F11F1F /* PBXTargetDependency */,
+			);
+			name = FeedbookTests;
+			productName = FeedbookTests;
+			productReference = B309B867134F506100F11F1F /* FeedbookTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B309B840134F506000F11F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Imperial College London";
+			};
+			buildConfigurationList = B309B843134F506000F11F1F /* Build configuration list for PBXProject "Feedbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B309B83E134F506000F11F1F;
+			productRefGroup = B309B84A134F506000F11F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B309B848134F506000F11F1F /* Feedbook */,
+				B309B866134F506000F11F1F /* FeedbookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B309B847134F506000F11F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B309B858134F506000F11F1F /* InfoPlist.strings in Resources */,
+				B309B861134F506000F11F1F /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B309B864134F506000F11F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B309B872134F506100F11F1F /* InfoPlist.strings in Resources */,
+				B309B875134F506100F11F1F /* FeedbookTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B309B865134F506000F11F1F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B309B845134F506000F11F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B309B85B134F506000F11F1F /* main.m in Sources */,
+				B309B85E134F506000F11F1F /* FeedbookAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B309B862134F506000F11F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B309B877134F506100F11F1F /* FeedbookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B309B86C134F506100F11F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B309B848134F506000F11F1F /* Feedbook */;
+			targetProxy = B309B86B134F506100F11F1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B309B856134F506000F11F1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B309B857134F506000F11F1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B309B85F134F506000F11F1F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B309B860134F506000F11F1F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B309B870134F506100F11F1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B309B871134F506100F11F1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B309B878134F506100F11F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B309B879134F506100F11F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B309B87B134F506100F11F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Feedbook/Feedbook-Prefix.pch";
+				INFOPLIST_FILE = "Feedbook/Feedbook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B309B87C134F506100F11F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Feedbook/Feedbook-Prefix.pch";
+				INFOPLIST_FILE = "Feedbook/Feedbook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B309B87E134F506100F11F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Feedbook.app/Feedbook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeedbookTests/FeedbookTests-Prefix.pch";
+				INFOPLIST_FILE = "FeedbookTests/FeedbookTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B309B87F134F506100F11F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Feedbook.app/Feedbook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeedbookTests/FeedbookTests-Prefix.pch";
+				INFOPLIST_FILE = "FeedbookTests/FeedbookTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B309B843134F506000F11F1F /* Build configuration list for PBXProject "Feedbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B309B878134F506100F11F1F /* Debug */,
+				B309B879134F506100F11F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B309B87A134F506100F11F1F /* Build configuration list for PBXNativeTarget "Feedbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B309B87B134F506100F11F1F /* Debug */,
+				B309B87C134F506100F11F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B309B87D134F506100F11F1F /* Build configuration list for PBXNativeTarget "FeedbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B309B87E134F506100F11F1F /* Debug */,
+				B309B87F134F506100F11F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B309B840134F506000F11F1F /* Project object */;
+}
